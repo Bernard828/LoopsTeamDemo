@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
+using System.Globalization;
 
 namespace LoopsExercises
 {
@@ -52,6 +54,13 @@ namespace LoopsExercises
             Console.WriteLine("PRINT NUMBERS IN REVERSE ORDER\n");
 
             // Enter your solution here
+            Console.WriteLine("Pick a number between 1-20 to start counting\n");
+            string startnumber = Console.ReadLine();
+            for (int i = 5; i > 0; i--)
+            {
+                Console.WriteLine( i);
+            }
+
 
             Console.Write("Press enter to return to the Main Menu");
             Console.ReadLine();
